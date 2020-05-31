@@ -157,18 +157,21 @@
 	}
 
 	.titleChicken-sm{
-		margin-top: -1.1%;
+		margin-top: -1.2%;
+		width: 40%;
 		left: 61.2%;
 		text-align: center;
 	}
 
 	.titleBeef-sm{
 		margin-top: -1.2%;
+		width: 40%;
 		left: 61.2%;
 		text-align: center;
 	}
 
 	.titleSushi-sm{
+		width: 40%;
 		margin-top: -1.2%;
 		left: 61.2%;
 		text-align: center;
