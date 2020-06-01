@@ -1,0 +1,127 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #000000;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+  background-color: #4dd2ff;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  height: 10%;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: Helvetica;
+  color: #000000;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: .75;
+}
+
+.container .jumbotron {
+  box-shadow: 0 0 50px #ffffff;
+}
+
+.container h2{
+	text-align: center;
+}
+
+@media (min-width: 1200px) {
+  .container .jumbotron {
+  	margin-top: 5%;
+    background: url('../splash.jpg') no-repeat;
+    background-size: 900px 1000px;
+    height: 1000px;
+    width: 900px;
+    margin-left: 120px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container .jumbotron {
+  	margin-top: 5%;
+    background: url('../splash.jpg') no-repeat;
+    background-size: 700px 800px;
+    height: 800px;
+    width: 700px;
+    margin-left: 120px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .container .jumbotron {
+  	margin-top: 5%;
+    background: url('../splash.jpg') no-repeat;
+    background-size: 500px 700px;
+    height: 700px;
+    width: 500px;
+    margin-left: 120px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 20px;
+    height: 10px;
+  }
+ 
+  .navbar-default .navbar-toggle .icon-bar{
+  	background-color: #000000;
+  }
+
+  .navbar-default .navbar-toggle{
+  	border-color: #000000;
+  }
+
+  .navbar-toggle {
+  	margin-top: -18px;
+  	margin-bottom: 15px;
+  	margin-right: 10px;
+  }
+  #collapsable-nav .hidden-xs1{
+  	margin-top: 5px;
+  }
+
+  #collapsable-nav #sushi{
+  	margin-bottom: 15px;
+  }
+  #collapsable-nav a{ /* Collapsed nav menu glyph */
+    font-size: 1.5em;
+    margin-right: 5px;
+    text-align: center;
+    font-family: Helvetica;
+    color: #000000;
+    vertical-align: center;
+  }
+  .container .jumbotron {
+    margin-top: 5%;
+    background: url('../splash.jpg') no-repeat;
+    background-size: 700px 800px;
+    height: 800px;
+    width: 78%;
+	align-content: center;
+	margin-left: 12%;
+  }
+}
+/*
+@media (max-width: 479px){
+	.container .jumbotron {
+    margin-top: 5%;
+    background: url('../splash.jpg') no-repeat;
+    background-size: 300px 500px;
+    height: 500px;
+    width: 300px;
+    margin-left: 25%;
+  }
+}*/
